@@ -1,0 +1,7 @@
+# Cross build profile for i586 and Musl libc.
+
+XBPS_TARGET_MACHINE="i586-musl"
+XBPS_CROSS_TRIPLET="i586-linux-musl"
+XBPS_CROSS_CFLAGS="-march=i586"
+XBPS_CROSS_CXXFLAGS="$XBPS_CROSS_CFLAGS"
+XBPS_CROSS_FFLAGS=""
